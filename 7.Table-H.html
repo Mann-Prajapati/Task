@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <td>Column1</td>
+            <th>Column2</th>
+        </tr>
+        <tr>
+            <td align="Center" colspan="2">Colspan Column</td>
+        </tr>
+        <tr>
+            <td>Rowspan cell</td>
+            <td align="Center">Cell 2
+            <table border="2" bgcolor="yellow" cellspacing="8" cellpadding="8">
+                <tr>
+                    <th>Inner Column Heading1</th>
+                    <th>Inner Column Heading2</th>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="blue">Inner Data Cell1</td>
+                    <td bgcolor="green">
+                        <table border="1" bgcolor="Pink" cellspacing="8">
+                            <tr>
+                                <th>Inner Most<br> Column Heading1</th>
+                                <th>Inner Most<br> Column Heading2</th>
+                            </tr>
+                            <tr>
+                                <td align="center" bgcolor="purple">InnerMost Data<br> Cell1</td>
+                                <td align="center" bgcolor="orange">InnerMost Data<br> Cell2</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </td>
+                </table>
+            </table>
+        </tr>
+    </table>
+</body>
+</html>
